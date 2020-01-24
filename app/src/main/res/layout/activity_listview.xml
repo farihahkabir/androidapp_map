@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@color/grey"
+        android:id="@+id/city1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="Name: Dhaka"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/aqi1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:text="AQI: 46"
+        android:layout_below="@+id/city1"/>
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/city2"
+        android:background="@color/grey"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_below="@+id/aqi1"
+        android:text="Name: Beijing"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/city2"
+        android:id="@+id/aqi2"
+        android:text="AQI: 119"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/city3"
+        android:background="@color/grey"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/aqi2"
+        android:text="Name: Bangkok"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/city3"
+        android:id="@+id/aqi3"
+        android:text="AQI: 63"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/city4"
+        android:textSize="20dp"
+        android:background="@color/grey"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/aqi3"
+        android:text="Name: New York"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/city4"
+        android:id="@+id/aqi4"
+        android:text="AQI: 45"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/city5"
+        android:textSize="20dp"
+        android:background="@color/grey"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_below="@+id/aqi4"
+        android:text="Name: Sydney"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/city5"
+        android:id="@+id/aqi5"
+        android:text="AQI: 52"/>
+    <TextView
+        android:layout_width="300dp"
+        android:background="@color/grey"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/city6"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/aqi5"
+        android:text="Name: London"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/city6"
+        android:id="@+id/aqi6"
+        android:text="AQI: 25"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/city7"
+        android:textSize="20dp"
+        android:background="@color/grey"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_below="@+id/aqi6"
+        android:text="Name: Barcelona"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/city7"
+        android:id="@+id/aqi7"
+        android:text="AQI: 27"/>
+    </TableLayout>
+</ScrollView>

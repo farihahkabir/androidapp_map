@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataActivity">
+    
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/viewAllBtn"
+        android:text="View All"
+        android:layout_marginLeft="280dp"
+        android:layout_below="@+id/spinner"
+        android:onClick="onClickButton"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/nameField"
+        android:layout_below="@+id/viewAllBtn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"/>
+
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/aqi"
+        android:layout_below="@+id/nameField"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/gmt"
+        android:layout_below="@+id/aqi"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/lat"
+        android:layout_below="@+id/gmt"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/longitude"
+        android:layout_below="@+id/lat"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/co"
+        android:layout_below="@+id/longitude"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/no2"
+        android:layout_below="@+id/co"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/o3"
+        android:layout_below="@+id/no2"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/so2"
+        android:layout_below="@+id/o3"
+        android:layout_marginLeft="50dp"/>
+
+
+
+</RelativeLayout>

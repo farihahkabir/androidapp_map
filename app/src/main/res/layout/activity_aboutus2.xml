@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:backgroundTint="#30FFFFFF"
+    android:backgroundTintMode="src_over"
+    android:orientation= "vertical"
+    tools:context=".AboutUsActivity2">
+
+    <TextView
+        android:id= "@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:text= "About Us"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/mission"
+        android:layout_width="270dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="60dp"
+        android:text=" Our mission is to make a well organized, easy to access system that would make it a lot easier for everyone to find all their required information and stay updated with current events. People could also raise awareness about the environment based on the graphs provided by the system."
+        android:textStyle= "bold"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:src= "@drawable/leftarrow"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        android:onClick="onClickImage"/>
+
+</LinearLayout>

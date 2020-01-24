@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:backgroundTint="#30FFFFFF"
+    android:backgroundTintMode="src_over"
+    android:orientation= "vertical"
+    tools:context=".AboutUsActivity">
+
+    <TextView
+        android:id= "@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:text= "About Us"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="270dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="60dp"
+        android:text="As a researcher/data collector one must go to a specific place to collect information about the environmental factors. Factors include: Temperature, Humidity, PM (Particulate Matter) 10, 2.5 and 1.0, Air Quality (if possible), VOC (Volatile Organic Carbon), Land Type and etc. Additionally, gathering data of some factors require very expensive gadgets/machineries, that not a lot of people have access to or can afford. All of these make the data collection process rather a very expensive, tedious, tiring and a time consuming process."
+        android:layout_gravity="center"
+        android:textStyle= "bold"
+        android:layout_marginLeft="60dp" />
+
+    <ImageView
+        android:id="@+id/right_arrow"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:src= "@drawable/rightarrow"
+        android:layout_marginRight="15dp"
+        android:onClick= "onClickImage"/>
+
+</LinearLayout>
